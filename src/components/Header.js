@@ -10,7 +10,7 @@ function Header () {
               <Button className='btn active'>Українська</Button>
 
             <div className='header-info'>
-              <span>+380 XX XXX XX XX</span>
+              <span>+380 60 983 08 42</span>
               <span>countryofpeace@gmail.com</span>
             </div>
           </div>
