@@ -1,6 +1,7 @@
 import { Carousel, Button} from 'react-bootstrap';
 import ukrLang from '../db.json';
 import enLang from '../db.json';
+import { useState } from 'react';
 
 function Home() {
      const ukrItem = ukrLang.ukrLang;
