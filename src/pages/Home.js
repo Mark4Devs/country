@@ -30,18 +30,10 @@ function Home() {
                </Carousel>
             ))}
           <div className='home-desc'>
-            <div className='text-container'>
-              <h4>Благодійна організація "Міжнародний Благодійний Фонд 'Країна Миру'"</h4>
+            {ukrItem.map(item => (<div className='text-container'>
+                <h4>{item['ukr-home-desc-title']}</h4>
               <p>
-                З перших днів війни ми допомогли десяткам тисяч жінок, 
-                дітей та літніх біженців, надаючи їм будь-яку матеріальну 
-                та емоційну підтримку. Ми зібрали тони гуманітарноі 
-                допомоги для хоробрих військових по всій Україні.
-              </p>
-              <p>
-                Ви не можете уявити, наскільки важливо допомогати, підтримувати, посміхатися і обіймати людей, які були незнайомими людьми, але в цей час подібні до сім'ї.
-                Ця війна нагадала нам усім, що життя в нас тільки одне, і якщо ми хочемо щось зробити корисне, це треба робити зараз, бо іншого разу вже може не бути.
-                Давайте зробимо Україну Країною Миру разом!
+                {item['ukr-home-desc']}
               </p>
             </div>
             <div className='video-container'>
@@ -56,11 +48,11 @@ function Home() {
               <div className='action-image'></div>
               <div className='action-image'></div>
               <div className='action-image'></div>
-              <div className='text-action'>
-                <h4>Take an action today</h4>
-                <p>volunteer and help people in need</p>
+                {ukrItem.map(item => ( <div className='text-action'>
+                <h4>{item['ukr-action-heading']}</h4>
+                <p>{item['ukr-action-desc']}</p>
                 <Button>DONATE</Button>
-              </div>
+              </div> ))}
             </div>
           </div>
         </div> 
