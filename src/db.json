@@ -1,0 +1,34 @@
+{
+    "ukr": [{
+        "ukr-home-desc": "Більше 13-ти мільйонів українців з початку війни вимушені були покинути свої домівки, з них 6,5 мільйонів переїхали до більш безпечних регіонів України, де, закономірно, у переселенців виникають  першочергові труднощі - такі, як забезпечення житлом, їжею, одягом, медичною допомогою. Полтава - місто у якому знаходиться наша  організація, та вся область стала логістичним і координаційним центром  України щодо гуманітарної та іншої допомоги, прихистком для людей, яким довелось покинути власні домівки, втікаючи від російських загарбників. Вже створено багато фондів допомоги, які успішно працюють, але потреб, на жаль, набагато більше. Тому нашим бажанням було згуртувати ще багато  небайдужих людей, дати їм можливість зробити свій посильний внесок допомоги.",
+        "ukr-menu-1": "Головна",
+        "ukr-menu-2": "Про нас",
+        "ukr-menu-3": "Реквізити",
+        "ukr-menu-4": "Контакти",
+        "ukr-home-slide-1": "збираємо",
+        "ukr-home-slide-2": "доставляємо",
+        "ukr-home-slide-3": "допомагаємо",
+        "ukr-home-slide-d-1": "ми зібрали тони гуманітарноі допомоги для хоробрих військових по всій Україні",
+        "ukr-home-slide-d-2": "працюємо до перемоги",
+        "ukr-home-slide-d-3": "з перших днів війни ми допомогли десяткам тисяч жінок, дітей та літніх біженців, надаючи їм будь-яку матеріальну та емоційну підтримку",
+        "ukr-action-heading": "долучайся сьогодні",
+        "ukr-action-desc": "допоможи людям котрі цього потребують",
+        "ukr-about-desc": "Ми - звичайні люди. Нами рушить бажання допомогти. Ми вкладаємо свій час, свої сили, таланти та ресурси у втілення корисних проектів допомоги всім хто її потребує. Ми віримо в Україну та її перемогу і робимо для цього все, що можемо. Давайте створимо Україну Країною Миру разом!"
+    }],
+    "en": [{
+        "en-home-desc": "More than 13 million Ukrainians have been forced to leave their homes since the beginning of the war.Nearly 6.5 million have moved to safer regions in Ukraine, becoming 'internally displaced persons.' Imagine being driven from your home far from everything you know and hold dear.With only a suitcase in your hand, and your children in your arms, you run to safety to a town dozens or hundreds of kilometers from your home.Can you possibly imagine the difficulties and expenses ? Housing, food, clothing, medical care, everything that was stable and known to you is now unfamiliar and new.Our International Charitable Organization, Country of Peace, is located in Poltava, a medium sized city in eastern Ukraine.Poltava is now a logistics and coordination center for humanitarian assistance, and a safe destinationfor refugees from more dangerous cities in eastern Ukraine. ",
+        "en-menu-1": "Home",
+        "en-menu-2": "About",
+        "en-menu-3": "Requisites",
+        "en-menu-4": "Contact",
+        "en-home-slide-1": "Collect",
+        "en-home-slide-2": "Deliver",
+        "en-home-slide-3": "Help",
+        "en-home-slide-d-1": "we have collected tons of humanitarian aid for brave soldiers throughout Ukraine ",
+        "en-home-slide-d-2": "we work to win",
+        "en-home-slide-d-3": "From the first days of the war, we have helped tens of thousands of women, children and elderly refugees by providing them with all kinds of material and emotional support.",
+        "en-action-heading": "take an action today",
+        "en-action-desc": "volunteer and help people in need",
+        "en-about-desc": "We are ordinary people. We are driven by the desire to help. We invest our time, energy, talents and resources in implementing useful projects to help everyone who needs it. We believe in Ukraine and its victory and are doing everything we can to do so. Let's create Ukraine as a Country of Peace together!"
+    }]
+}
