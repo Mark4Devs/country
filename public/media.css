@@ -38,6 +38,9 @@
     .slider .carousel-item .image-holder img {
         width: 22%;
     }
+    .slider{
+        display: none;
+    }
     .slider.mini{
         display: inline-block;
     }
