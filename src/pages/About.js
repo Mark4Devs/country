@@ -48,8 +48,8 @@ function About(){
                     </p>
                 </div>
             </div>
-        <Team/>
         </div>
+        <Team />
     )
 
     }
