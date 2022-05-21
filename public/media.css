@@ -578,7 +578,11 @@
     }
     .contacts-page {
         margin-top: 38%;
-        margin-bottom: 6%;
+        margin-bottom: 6%;  
+    }
+    .border-container h2 {
+        margin: 0 auto;
+        font-size: 3vw;
     }
 }
 @media screen and (max-width: 541px){
