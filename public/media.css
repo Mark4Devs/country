@@ -707,7 +707,7 @@
         margin-right: 6.5%;
     }
     .text-slider {
-        top: 37%;
+        top: 32%;
     }
     .text-slider .carousel-caption button {
         font-size: 2.7vw;
@@ -738,6 +738,21 @@
         font-size: 8vw;
         margin-bottom: 5%;
     }
+    .border-container h2 {
+        margin: 0 auto;
+        font-size: 5vw;
+    }
+    .border-container .hr {
+        width: 24%;
+    }
+    .description-container h3 {
+        font-size: 5vw;
+    }
+    .description-container div p {
+        font-size: 3vw;
+        text-align: center;
+    }
+
 }
 @media screen and (max-width: 413px){
     .link {
