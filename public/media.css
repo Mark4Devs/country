@@ -264,6 +264,9 @@
     .slider-mini-two .carousel-item .image-holder img {
         width: 30%;
     }
+    .navbar-light .navbar-brand {
+        top: 1.2%;
+    }
 }
 @media screen and (max-width: 854px){
     .header-outline button {
@@ -275,7 +278,7 @@
         margin-right: -87%;
     }
     .navbar-light .navbar-brand {
-        top: 4.5%;
+        top: 2%;
     }
     .navigation {
         width: 90%;
@@ -593,6 +596,9 @@
     .carousel-control-next-icon, .carousel-control-prev-icon {
         left: -5%;
     }
+    .navbar-light .navbar-brand {
+        top: 1.4%;
+    }
 }
 @media screen and (max-width: 541px){
     .header-info span {
@@ -752,7 +758,9 @@
         font-size: 3vw;
         text-align: center;
     }
-
+    .navbar-light .navbar-brand {
+        top: 2%;
+    }
 }
 @media screen and (max-width: 413px){
     .link {
