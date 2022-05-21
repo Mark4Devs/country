@@ -108,8 +108,11 @@
     .border-container .hr {
         width: 39%;
     }
+    .slider.mini{
+        display: none;
+    }
     .slider-mini-two{
-        display: inline-blcok;
+        display: inline-block;
     }
 }
 @media screen and (max-width: 961px){
