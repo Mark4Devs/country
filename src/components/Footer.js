@@ -19,8 +19,7 @@ function Footer() {
               <span><a href="#facebook">https://link/fb-page/</a></span><br/>
               <span><a href="#instagram">https://link/ig-page/</a></span>  
               <h5 className='mt-4'>Телефон:</h5>
-              <span>+(380)xx-xxx-xx-xx</span><br/>
-              <span>+(380)xx-xxx-xx-xx</span>
+              <span>+380 60 983 08 42</span><br/>
             </div>
           </div>
         </div>
