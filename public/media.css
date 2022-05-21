@@ -585,7 +585,7 @@
         font-size: 3vw;
     }
     .slider-mini-two{
-        display: block;
+        display: none;
     } 
     .slider-mini-three{
         display: inline-block;
