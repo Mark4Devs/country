@@ -49,7 +49,9 @@ function About(){
                 </div>
             </div>
         </div>
-        <Team/>
+        <div>
+            <Team />
+        </div>
     )
 
     }
