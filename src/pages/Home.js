@@ -31,7 +31,7 @@ function Home() {
             ))}
           <div className='home-desc'>
             {ukrItem.map(item => (<div className='text-container'>
-                <h4>{item['ukr-home-desc-title']}</h4>
+                <h4>{item['ukr-desc-home-title']}</h4>
               <p>
                 {item['ukr-home-desc']}
               </p>
