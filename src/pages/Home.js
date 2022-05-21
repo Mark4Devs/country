@@ -2,30 +2,33 @@ import { Carousel, Button} from 'react-bootstrap';
 import ukrLang from '../db.json';
 
 function Home() {
+     const ukrItem = ukrLang.ukrLang;
     return (
         <div className='home'>
           <Carousel>
-            <Carousel.Item>
-              <div className='image-holder'></div>
-              <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <div className='image-holder'></div>
-              <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <div className='image-holder'></div>
-              <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-              </Carousel.Caption>
-            </Carousel.Item>
+            {ukrItem.map(item => (
+                <Carousel.Item>
+                  <div className='image-holder'></div>
+                  <Carousel.Caption>
+                    <h3>{item['ukr-home-slide-1']}</h3>
+                    <p>{item['ukr-home-slide-d-1']}.</p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <div className='image-holder'></div>
+                  <Carousel.Caption>
+                    <h3>{item['ukr-home-slide-2']}</h3>
+                    <p>{item['ukr-home-slide-d-2']}.</p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <div className='image-holder'></div>
+                  <Carousel.Caption>
+                    <h3>{item['ukr-home-slide-3']}</h3>
+                    <p>{item['ukr-home-slide-d-3']}.</p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+            ))}
           </Carousel>
           <div className='home-desc'>
             <div className='text-container'>
