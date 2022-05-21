@@ -5,31 +5,30 @@ function Home() {
      const ukrItem = ukrLang.ukrLang;
     return (
         <div className='home'>
-          <Carousel>
-            {ukrItem.map(item => (
+                      {ukrItem.map(item => ( <Carousel>
                 <Carousel.Item>
                   <div className='image-holder'></div>
                   <Carousel.Caption>
                     <h3>{item['ukr-home-slide-1']}</h3>
-                    <p>{item['ukr-home-slide-d-1']}.</p>
+                    <p>{item['ukr-home-slide-d-1']}</p>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                   <div className='image-holder'></div>
                   <Carousel.Caption>
                     <h3>{item['ukr-home-slide-2']}</h3>
-                    <p>{item['ukr-home-slide-d-2']}.</p>
+                    <p>{item['ukr-home-slide-d-2']}</p>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                   <div className='image-holder'></div>
                   <Carousel.Caption>
                     <h3>{item['ukr-home-slide-3']}</h3>
-                    <p>{item['ukr-home-slide-d-3']}.</p>
+                    <p>{item['ukr-home-slide-d-3']}</p>
                   </Carousel.Caption>
                 </Carousel.Item>
+               </Carousel>
             ))}
-          </Carousel>
           <div className='home-desc'>
             <div className='text-container'>
               <h4>Благодійна організація "Міжнародний Благодійний Фонд "Країна Миру""</h4>
