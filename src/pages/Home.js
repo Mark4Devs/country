@@ -36,7 +36,7 @@ function Home() {
                     <p>{item['ukr-home-slide-d-3']}</p>
                   </Carousel.Caption>
                 </Carousel.Item>
-               </Carousel>
+               </Carousel>))
             : enItem.map(item => ( <Carousel>
                 <Carousel.Item>
                   <div className='image-holder'></div>
@@ -66,7 +66,7 @@ function Home() {
               <p>
                 {item['ukr-home-desc']}
               </p>
-            </div> : enItem.map(item => (<div className='text-container'>
+            </div>)) : enItem.map(item => (<div className='text-container'>
                 <h4>{item['en-desc-home-title']}</h4>
               <p>
                 {item['en-home-desc']}
@@ -88,7 +88,7 @@ function Home() {
                 <h4>{item['ukr-action-heading']}</h4>
                 <p>{item['ukr-action-desc']}</p>
                 <Button>DONATE</Button>
-              </div> : enItem.map(item => ( <div className='text-action'>
+              </div>)) : enItem.map(item => ( <div className='text-action'>
                 <h4>{item['en-action-heading']}</h4>
                 <p>{item['en-action-desc']}</p>
                 <Button>DONATE</Button>
