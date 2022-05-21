@@ -16,8 +16,8 @@ function Footer() {
             </div>
             <div className='info'>
               <h5>Соцмережі:</h5>
-              <span><a href="#facebook"><BsFacebook/>https://www.facebook.com/Країна-Миру-Country-of-Peace-112502804794164/</a></span><br/>
-              <span><a href="#instagram"><BsInstagram/> https://instagram.com/countryofpeace.ua?igshid=YmMyMTA2M2Y/</a></span>  
+              <span><a href="https://www.facebook.com/Країна-Миру-Country-of-Peace-112502804794164/"><BsFacebook/> Facebook</a></span><br/>
+              <span><a href="https://instagram.com/countryofpeace.ua?igshid=YmMyMTA2M2Y/"><BsInstagram/> Instagram</a></span>  
               <h5 className='mt-4'>Телефон:</h5>
               <span>+380 60 983 08 42</span><br/>
             </div>
