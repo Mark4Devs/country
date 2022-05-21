@@ -35,6 +35,9 @@
     .description-container div p {
         font-size: 1vw;
     }
+    .slider .carousel-item .image-holder img {
+        width: 22%;
+    }
 }
 @media screen and (max-width: 1537px){
     .navigation {
@@ -65,6 +68,9 @@
     }
     .video-container {
         width: 43%;
+    }
+    .slider.mini{
+        display: inline-block;
     }
 }
 @media screen and (max-width: 1025px){
