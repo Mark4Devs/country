@@ -426,7 +426,7 @@ footer{
     justify-content: space-between;
     background: none !important; 
 }
-.slider .carousel-item .image-holder:hover .slider .carousel-item .image-holder{
+.slider .carousel-item .image-holder img:hover{
     filter: grayscale(0);
     -webkit-filter: grayscale(0);
 }
