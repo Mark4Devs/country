@@ -49,7 +49,7 @@ function About(){
                 </div>
             </div>
         </div>
-        <Team />
+        <Team/>
     )
 
     }
