@@ -629,6 +629,9 @@
     .slider-mini-last{
         display: inline-block;
     }
+    .slider-mini-last .carousel-control-next-icon, .carousel-control-prev-icon {
+        left: 16%;
+    }
 }
 @media screen and (max-width: 426px){
     .navbar-light .navbar-toggler {
