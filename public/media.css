@@ -584,6 +584,12 @@
         margin: 0 auto;
         font-size: 3vw;
     }
+    .slider-mini-two{
+        display: block;
+    } 
+    .slider-mini-three{
+        display: inline-block;
+    }
 }
 @media screen and (max-width: 541px){
     .header-info span {
