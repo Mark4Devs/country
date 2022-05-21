@@ -1,6 +1,6 @@
 import { Button } from "react-bootstrap";
 import { Carousel } from "react-bootstrap";
-import Team from './components/Team';
+import Team from '../components/Team';
 
 function About(){
     return(
