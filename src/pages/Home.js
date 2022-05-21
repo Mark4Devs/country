@@ -6,7 +6,7 @@ import { useState } from 'react';
 function Home() {
      const ukrItem = ukrLang.ukrLang;
      const enItem = ukrLang.enLang;
-     const [langActive, setLang] = useState(false);
+     const [langActive, setLang] = useState(true);
     const toggleLang = () => {
         setLang(true);
       };
