@@ -78,6 +78,9 @@
     .video-container {
         width: 43%;
     }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        left: 25%;
+    }
 }
 @media screen and (max-width: 1025px){
     .header-info {
