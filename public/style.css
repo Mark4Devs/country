@@ -531,6 +531,7 @@ footer{
     width: 78%;
     margin: 0 auto;
     margin-left: 12%;
+    display: none;
 }
 
 .slider-mini-two .carousel-inner {
@@ -591,6 +592,7 @@ footer{
     width: 78%;
     margin: 0 auto;
     margin-left: 12%;
+    display: none;
 }
 
 .slider-mini-three .carousel-inner {
@@ -649,6 +651,7 @@ footer{
 .slider-mini-last {
     width: 100%;
     margin: 0 auto;
+    display: none;
 }
 
 .slider-mini-last .carousel-inner {
