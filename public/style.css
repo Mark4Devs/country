@@ -382,6 +382,9 @@ footer{
     font-size: 2.2vw;
     padding: 1.5%;
 }
+footer svg{
+    margin-right: 3%;
+}
 .team-container{
     width: 100%;
     margin-bottom: 4%;
