@@ -1,4 +1,5 @@
 import { Carousel, Button} from 'react-bootstrap';
+import ukrLang from '../db.json';
 
 function Home() {
     return (
