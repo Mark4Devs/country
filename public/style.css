@@ -405,7 +405,7 @@ footer{
 }
 
 .slider {
-    width: 79%;
+    width: 77%;
     margin: 0 auto;
 }
 
@@ -431,7 +431,7 @@ footer{
     -webkit-filter: grayscale(0);
 }
 .slider .carousel-item .image-holder img {
-    width: 18%;
+    width: 20%;
     height: 100%;
     object-fit: cover;
     border-radius: 24px;
