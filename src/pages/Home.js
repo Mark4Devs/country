@@ -35,7 +35,7 @@ function Home() {
               <p>
                 {item['ukr-home-desc']}
               </p>
-            </div>
+            </div> ))}
             <div className='video-container'>
               <video controls>
                 <source src="/images/Kraina-miru.mp4" type="video/mp4"/>
