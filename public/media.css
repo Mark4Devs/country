@@ -623,6 +623,12 @@
     .info p {
         font-size: 1.9vw;
     }
+    .slider-mini-two{
+        display:  none;
+    }
+    .slider-mini-last{
+        display: inline-block;
+    }
 }
 @media screen and (max-width: 426px){
     .navbar-light .navbar-toggler {
