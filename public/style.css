@@ -622,8 +622,8 @@ footer{
     -o-border-radius: 24px;
 }
 
-.slider-mini-last .carousel-control-next, .slider-mini-last .carousel-control-prev {
-    width: 9% !important;
+.slider-mini-three .carousel-control-next, .slider-mini-last .carousel-control-prev {
+    width: 6% !important;
     background-color: rgba(0, 0, 0, 0.575);
     display: inline-block !important;
 }
@@ -680,9 +680,10 @@ footer{
     -o-border-radius: 24px;
 }
 
-.slider-mini-last .carousel-control-next,
-.slider-mini-last .carousel-control-prev {
-    width: 6% !important;
+
+
+.slider-mini-last .carousel-control-next, .slider-mini-last .carousel-control-prev {
+    width: 9% !important;
     background-color: rgba(0, 0, 0, 0.575);
     display: inline-block !important;
 }
