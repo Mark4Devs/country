@@ -109,7 +109,7 @@ header{
     background-image: url(./images/banner-image-2.jpg);
 }
 .carousel-item:last-of-type .image-holder{
-    background-image: url(./images/banner-image-3.jpg);
+    background-image: url(./images/banner-image.jpg);
 }
 .carousel-control-prev, .carousel-control-next{
     display: none !important;
