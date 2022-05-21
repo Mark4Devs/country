@@ -528,9 +528,9 @@ footer{
 }
 
 .slider-mini-two {
-    width: 79%;
+    width: 78%;
     margin: 0 auto;
-    display: none;
+    margin-left: 12%;
 }
 
 .slider-mini-two .carousel-inner {
@@ -548,6 +548,7 @@ footer{
     height: 100%;
     display: flex;
     justify-content: space-between;
+    background: none !important;
 }
 
 .slider-mini-two .carousel-item .image-holder img {
@@ -565,6 +566,7 @@ footer{
 .slider-mini-two .carousel-control-prev {
     width: 6% !important;
     background-color: rgba(0, 0, 0, 0.575);
+    display: inline-block !important;
 }
 
 .slider-mini-two .carousel-control-next {
