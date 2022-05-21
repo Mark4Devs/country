@@ -226,7 +226,7 @@
         margin-left: 6%;
     }
     .text-slider {
-        width: 106.7%;
+        width: 100%;
         left: 0%;
     }
     .text-slider .carousel-caption {
@@ -242,6 +242,10 @@
     }
     .border-container .hr {
         width: 36%;
+    }
+    .text-slider .carousel-caption {
+        width: 50%;
+        left: 0%;
     }
 }
 @media screen and (max-width: 901px){
