@@ -41,8 +41,11 @@
     .slider{
         display: none;
     }
-    .slider.mini{
+    .slider.mini {
         display: inline-block;
+        margin: 0 auto;
+        width: 78%;
+        margin-left: 12%;
     }
 }
 @media screen and (max-width: 1537px){
