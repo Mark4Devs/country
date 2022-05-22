@@ -95,7 +95,7 @@ function About(){
                 <div className='hr'></div>
                 <h2>{item['ukr-about-team']}</h2>
                 <div className='hr'></div>
-            </div>)) : {langActive ? enItem.map(item => (<div className='border-container'>
+            </div>)) : enItem.map(item => ( <div className='border-container'>
                 <div className='hr'></div>
                 <h2>{item['en-about-team']}</h2>
                 <div className='hr'></div>
