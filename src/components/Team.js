@@ -99,7 +99,8 @@ function Team(){
                         <Carousel.Item>
                             <div className='image-holder'>
                                 <img src="images/team-member-7.jpg"></img>
-                                <img src="images/IMG-67862b728831c0f66ad067609b2c67b1c
+                                <img src="images/IMG-67862b728831c0f66ad067609b2c67b1-V.jpg"></img>
+                            </div>
                         </Carousel.Item>
                         <Carousel.Item>
                             <div className='image-holder'>
