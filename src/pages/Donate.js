@@ -1,5 +1,8 @@
 import { Navbar, Nav, Button } from 'react-bootstrap';
 import {  NavLink } from 'react-router-dom';
+import ukrLang from '../db.json';
+import enLang from '../db.json';
+import { useState } from 'react';
 
 function Donate(){
         const ukrItem = ukrLang.ukrLang;
