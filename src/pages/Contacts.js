@@ -3,7 +3,7 @@ import { MdLocationOn } from 'react-icons/md';
 import { HiMail } from 'react-icons/hi'; 
 import { Navbar, Nav, Button } from 'react-bootstrap';
 import {  NavLink } from 'react-router-dom';
-import { ukrLang, enLang } from '../db.json';
+
 import { useState } from 'react';
 
 function Contacts(){
