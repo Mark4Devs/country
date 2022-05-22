@@ -213,9 +213,12 @@ header{
     -ms-border-radius: 7px;
     -o-border-radius: 7px;
 }
-.text-action p{
-    font-size: 1.2vw;
+.text-action p {
+    font-size: 1.4vw;
     color: #ffff;
+}
+.text-action button{
+    font-size: 1.2vw;
 }
 footer{
     width: 100%;
@@ -341,12 +344,12 @@ footer{
     -o-border-radius: 0;
     background-color: #0275d8;
 }
-.text-slider .carousel-caption h3{
+.text-slider .carousel-caption h3 {
     margin: 0 auto;
     margin-bottom: 0;
     color: #ffff;
     font-size: 1.5vw;
-    padding-top: 4%;
+    padding-top: 2%;
     height: 100%;
     width: 100%;
 }
