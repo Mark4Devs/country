@@ -1,4 +1,4 @@
-import { Carousel, Button} from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 import { Navbar, Nav, Button } from 'react-bootstrap';
 import {  NavLink } from 'react-router-dom';
 import ukrLang from '../db.json';
