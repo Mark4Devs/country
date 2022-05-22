@@ -90,12 +90,12 @@ function About(){
                 </div>
                 <div className="description-container">
                     {langActive ? ukrItem.map(item => ( <div>
-                        <h3>"Країна Миру" - Хто ми?</h3>
+                        <h3>{item['ukr-about-title']}</h3>
                         <p>                    
                             {item['ukr-about-desc']}
                         </p>
                     </div>)) : enItem.map(item => ( <div>
-                        <h3>"Країна Миру" - Хто ми?</h3>
+                        <h3>{item['en-about-title']}</h3>
                         <p>                    
                             {item['en-about-desc']}
                         </p>
