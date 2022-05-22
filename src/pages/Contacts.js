@@ -3,6 +3,10 @@ import { MdLocationOn } from 'react-icons/md';
 import { HiMail } from 'react-icons/hi'; 
 import { Navbar, Nav, Button } from 'react-bootstrap';
 import {  NavLink } from 'react-router-dom';
+import ukrLang from '../db.json';
+import enLang from '../db.json';
+import { useState } from 'react';
+
 function Contacts(){
         const ukrItem = ukrLang.ukrLang;
      const enItem = ukrLang.enLang;
