@@ -2,6 +2,15 @@ import { Navbar, Nav, Button } from 'react-bootstrap';
 import {  NavLink } from 'react-router-dom';
 
 function Donate(){
+        const ukrItem = ukrLang.ukrLang;
+     const enItem = ukrLang.enLang;
+     const [langActive, setLang] = useState(true);
+    const toggleLang = () => {
+        setLang(true);
+      };
+      const toggleLangNext = () => {
+        setLang(false);
+      };
     return(
         <div>
             <header className="header">
