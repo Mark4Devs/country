@@ -1,6 +1,8 @@
 import { FaPhone } from 'react-icons/fa';
 import { MdLocationOn } from 'react-icons/md'; 
 import { HiMail } from 'react-icons/hi'; 
+import { Navbar, Nav, Button } from 'react-bootstrap';
+import {  NavLink } from 'react-router-dom';
 function Contacts(){
     return(
         <div>
