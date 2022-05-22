@@ -17,6 +17,7 @@ header{
     border: none;
     background-color: transparent;
     margin-right: 2%;
+    z-index: 10;
 }
 .header-outline a:hover{
     color: #0275d8;
