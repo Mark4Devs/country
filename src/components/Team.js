@@ -2,11 +2,7 @@ import {Carousel } from 'react-bootstrap';
 function Team(){
     return(
         <div className='team-container'>
-            <div className='border-container'>
-                <div className='hr'></div>
-                <h2>НАША КОМАНДА</h2>
-                <div className='hr'></div>
-            </div>
+            
             <div className="slider">
                 <Carousel interval={null}>
                     <Carousel.Item>
