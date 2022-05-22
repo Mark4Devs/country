@@ -1,4 +1,6 @@
 import { Carousel, Button} from 'react-bootstrap';
+import { Navbar, Nav, Button } from 'react-bootstrap';
+import {  NavLink } from 'react-router-dom';
 import ukrLang from '../db.json';
 import enLang from '../db.json';
 import { useState } from 'react';
@@ -18,14 +20,14 @@ function Home() {
               <header className="header">
                <Navbar className='bg-light' expand="lg" fixed='top'>
                <div className='header-outline'>
-                   <Button>English</Button>
-                   <Button className='btn active'>Українська</Button>
+                   <Button onClick={toggleLangNext}>English</Button>
+                   <Button onClick={toggleLang} className='btn active'>Українська</Button>
 
                  <div className='header-info'>
                    <span>+380 60 983 08 42</span>
                    <span>countryofpeace@gmail.com</span>
                  </div>
-               </div>
+               </div> 
                  <Navbar.Toggle aria-controls="basic-navbar-nav" />
                  <Navbar.Brand to="/"><img src='images/logo.png'/></Navbar.Brand>
                  <Navbar.Collapse className='nav-bar'>
