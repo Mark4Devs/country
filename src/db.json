@@ -25,6 +25,7 @@
         "ukr-about-btn": "Підтримай!",
         "ukr-about-slide": "Давайте створимо Україну Країною Миру разом!",
         "ukr-about-team": "Наша Команда",
+        "ukr-about-title": "'Країна Миру' - Хто ми?",
         "ukr-about-desc": "Ми - звичайні люди. Нами рушить бажання допомогти. Ми вкладаємо свій час, свої сили, таланти та ресурси у втілення корисних проектів допомоги всім хто її потребує. Ми віримо в Україну та її перемогу і робимо для цього все, що можемо. Давайте створимо Україну Країною Миру разом!"
     }],
     "enLang": [{
@@ -53,6 +54,7 @@
         "en-action-heading": "take an action today",
         "en-action-desc": "volunteer and help people in need",
         "en-about-team": "Our Team",
+        "en-about-title": "'Country of Peace' - Who are we?",
         "en-about-desc": "We are ordinary people. We are driven by the desire to help. We invest our time, energy, talents and resources in implementing useful projects to help everyone who needs it. We believe in Ukraine and its victory and are doing everything we can to do so. Let's create Ukraine as a Country of Peace together!"
     }]
 }
