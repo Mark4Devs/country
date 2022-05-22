@@ -52,20 +52,33 @@ function About(){
                         <div className='image-holder'></div>
                         </Carousel.Item>
                     </Carousel>
-                    <div className="text-slider">
+                    {langActive ? ukrItem.map(item => (<div className="text-slider">
                             <Carousel className="carousel-text" interval="4000">
                                 <Carousel.Item>
                                 <Carousel.Caption>
-                                    <h3>Cтворимо Україну Країною Миру разом!</h3>
+                                    <h3>{item['ukr-about-slide']}</h3>
                                 </Carousel.Caption>
                                 </Carousel.Item>
                                 <Carousel.Item>
                                 <Carousel.Caption>
-                                    <Button>Підтримай!</Button>
+                                    <Button>{item['ukr-about-btn']}</Button>
                                 </Carousel.Caption>
                                 </Carousel.Item>
                             </Carousel>
-                    </div>
+                    </div>)) : enItem.map(item => (<div className="text-slider">
+                            <Carousel className="carousel-text" interval="4000">
+                                <Carousel.Item>
+                                <Carousel.Caption>
+                                    <h3>{item['en-about-slide']}</h3>
+                                </Carousel.Caption>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                <Carousel.Caption>
+                                    <Button>{item['en-about-btn']}</Button>
+                                </Carousel.Caption>
+                                </Carousel.Item>
+                            </Carousel>
+                    </div>)) }
                     <Carousel className="carousel-about" interval="3500">
                         <Carousel.Item>
                         <div className='image-holder'></div>
