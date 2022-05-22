@@ -2,6 +2,9 @@ import { Carousel } from "react-bootstrap";
 import { Navbar, Nav, Button } from 'react-bootstrap';
 import {  NavLink } from 'react-router-dom';
 import Team from '../components/Team';
+import ukrLang from '../db.json';
+import enLang from '../db.json';
+import { useState } from 'react';
 
 function About(){    
     const ukrItem = ukrLang.ukrLang;
