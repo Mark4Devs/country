@@ -20,8 +20,8 @@ function Donate(){
             <header className="header">
                <Navbar className='bg-light' expand="lg" fixed='top'>
                <div className='header-outline'>
-                   <Button onClick={toggleLangNext}>English</Button>
-                   <Button onClick={toggleLang} className='btn active'>Українська</Button>
+                   <Button onClick={toggleLangNext} className={!langActive ? 'btn active' : null}>English</Button>
+                   <Button onClick={toggleLang} className={langActive ? 'btn active' : null}>Українська</Button>
 
                  <div className='header-info'>
                    <span>+380 60 983 08 42</span>
