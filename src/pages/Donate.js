@@ -3,6 +3,7 @@ import {  NavLink } from 'react-router-dom';
 import ukrLang from '../db.json';
 import enLang from '../db.json';
 import { useState } from 'react';
+import { BsInstagram, BsFacebook } from 'react-icons/bs';
 
 function Donate(){
         const ukrItem = ukrLang.ukrLang;
@@ -74,6 +75,7 @@ function Donate(){
             </div>      
             
         </div>  
+
         </div>
     )
 }
