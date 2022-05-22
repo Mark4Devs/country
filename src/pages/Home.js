@@ -25,7 +25,7 @@ function Home() {
                    <Button onClick={toggleLang} className={langActive ? 'btn active' : null}>Українська</Button>
 
                  <div className='header-info'>
-                   <span>+380 60 983 08 42</span>
+                   <span>+380 50 983 08 42</span>
                    <span>countryofpeace@gmail.com</span>
                  </div>
                </div> 
@@ -141,7 +141,7 @@ function Home() {
                    <span><a href="https://www.facebook.com/Країна-Миру-Country-of-Peace-112502804794164/"><BsFacebook/> Facebook</a></span>
                    <span><a href="https://instagram.com/countryofpeace.ua?igshid=YmMyMTA2M2Y/"><BsInstagram/> Instagram</a></span>  
                    <h5 className='mt-4'>{item['ukr-footer-phone']}</h5>
-                   <span>+380 60 983 08 42</span><br/>
+                   <span>+380 50 983 08 42</span><br/>
                  </div>
                </div>)) : enItem.map(item => ( <div className='contacts-container'>
                  <h3 className='heading mb-5'>{item['en-footer-heading']}</h3>
@@ -158,7 +158,7 @@ function Home() {
                    <span><a href="https://www.facebook.com/Країна-Миру-Country-of-Peace-112502804794164/"><BsFacebook/> Facebook</a></span>
                    <span><a href="https://instagram.com/countryofpeace.ua?igshid=YmMyMTA2M2Y/"><BsInstagram/> Instagram</a></span>  
                    <h5 className='mt-4'>{item['en-footer-phone']}</h5>
-                   <span>+380 60 983 08 42</span><br/>
+                   <span>+380 50 983 08 42</span><br/>
                  </div>
                </div>))}
              </div>
