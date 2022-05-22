@@ -91,6 +91,15 @@ function About(){
                 
                 
           </div>
+             {langActive ? ukrItem.map(item => (<div className='border-container'>
+                <div className='hr'></div>
+                <h2>{item['ukr-about-team']}</h2>
+                <div className='hr'></div>
+            </div>)) : {langActive ? enItem.map(item => (<div className='border-container'>
+                <div className='hr'></div>
+                <h2>{item['en-about-team']}</h2>
+                <div className='hr'></div>
+            </div>))}
         <Team />
          <footer>
               <div className='section pt-5 pb-5'>
@@ -132,7 +141,7 @@ function About(){
               </div>
            </footer>                   
            
-          <Team />
+          
         </div>
     )
 
