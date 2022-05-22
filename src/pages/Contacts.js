@@ -69,7 +69,7 @@ function Contacts(){
                 <HiMail/>
                 <span>countryofpeace@gmail.com</span>
             </div>
-        </div> ))
+        </div> ))}
                 <footer>
                <div className='section pt-5 pb-5'>
                {langActive ? ukrItem.map(item => ( <div className='contacts-container'>
@@ -106,7 +106,7 @@ function Contacts(){
                    <h5 className='mt-4'>{item['en-footer-phone']}</h5>
                    <span>+380 60 983 08 42</span><br/>
                  </div>
-               </div>))
+               </div>))}
              </div>
            </footer> 
         </div>
