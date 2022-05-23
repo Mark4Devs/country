@@ -25,9 +25,9 @@ header{
 .btn.active{
     color: #0275d8;
 }
-.header-info{
+.header-info {
     width: 39%;
-    margin-left: 48%;
+    margin-left: 55%;
     align-self: center;
 }
 .navbar-light .navbar-brand {
