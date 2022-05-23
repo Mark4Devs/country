@@ -4,14 +4,14 @@
 header{
     width: 100%;
 }
-.header-outline{
+.header-outline {
     width: 100%;
     background-color: #d6cc0b;
     font-size: 1vw;
     display: flex;
     padding: .5% 5%;
-    padding-left: 11%;
-} 
+    padding-left: 6%;
+}
 .header-outline button{
     font-size: 1vw;
     border: none;
@@ -35,7 +35,7 @@ header{
     width: 12%;
     position: absolute;
     top: 20%;
-    left: 11%;
+    left: 6%;
 }
 .navbar-light .navbar-brand img{
     width: 100%;
@@ -57,12 +57,12 @@ header{
 .nav-bar{
     width: 100%;
 }
-.navigation{
+.navigation {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    width: 34%;
-    margin-right: 9.8%;
+    width: 32%;
+    margin-right: 6.5%;
     padding: .8% 0;
 }
 .link{
@@ -134,8 +134,8 @@ header{
     -o-border-radius: 12px;
     margin-bottom: 4%;
 }
-.home-desc{
-    width: 79%;
+.home-desc {
+    width: 87%;
     margin: 0 auto;
     margin-top: 5%;
     padding-bottom: 5%;
@@ -145,11 +145,13 @@ header{
 .text-container{
     width: 55%;
 }
-.text-container p{
+.text-container p {
     text-align: justify;
+    font-size: 1vw;
 }
-.text-container h4{
+.text-container h4 {
     color: #0275d8;
+    font-size: 1.5vw;
 }
 .video-container{
     width: 35%;
@@ -217,8 +219,8 @@ header{
     font-size: 1.4vw;
     color: #ffff;
 }
-.text-action button{
-    font-size: 1.2vw;
+.text-action button {
+    font-size: 1.4vw;
 }
 footer{
     width: 100%;
@@ -232,9 +234,10 @@ footer{
     flex-wrap: wrap;
     color: #ffff;
 }
-.contacts-container h3{
+.contacts-container h3 {
     font-weight: 400;
     width: 50%;
+    font-size: 2vw;
 }
 .contacts-container span a{
     color: #ffff;
@@ -250,10 +253,23 @@ footer{
 .info:last-of-type span{
     margin-bottom: 2%;
 }
-.info h5{
-    font-size: 1vw;
+.info h5 {
+    font-size: 1.3vw;
     margin-bottom: 2%;
     color: #d6cc0b;
+}
+.info p{
+    font-size: 1vw;
+}
+.info span{
+    font-size: 1vw;
+}
+.info:last-of-type span {
+    margin-bottom: 2%;
+    font-size: 1vw;
+}
+.contacts-item span{
+    font-size: 1vw;
 }
 .info a{
     text-decoration: none;
