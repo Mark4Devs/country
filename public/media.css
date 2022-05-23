@@ -553,6 +553,10 @@
         text-align: justify;
         font-size: 1.6vw;
     }
+    .text-slider .carousel-caption {
+        width: 45%;
+        left: 0%;
+    }
     .video-container video {
         height: 100%;
     }
@@ -656,7 +660,7 @@
         margin-left: 32%;
         text-align: end;
     }
-    header-info span {
+    .header-info span {
         font-size: 1.6vw;
     }
     .header-outline button {
