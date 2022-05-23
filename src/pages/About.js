@@ -27,7 +27,7 @@ function About(){
 
                  <div className='header-info'>
                    <span>+380 50 983 08 42</span>
-                   <span>countryofpeace@gmail.com</span>
+                   <span>countryofpeace.ua@gmail.com</span>
                  </div>
                </div> 
                  <Navbar.Toggle aria-controls="basic-navbar-nav" />
