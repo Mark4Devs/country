@@ -47,6 +47,9 @@
         width: 78%;
         margin-left: 12%;
     }
+    .slider.mini .carousel-inner {
+        height: 30vw;
+    }
 }
 @media screen and (max-width: 1537px){
     .navigation {
@@ -54,6 +57,70 @@
     }
     .info h5 {
         font-size: 1.3vw;
+    }
+    .link {
+        font-size: 1.2vw;
+    }
+    .info p {
+        font-size: 1.1vw;
+    }
+    .info h5 {
+        font-size: 1.4vw;
+    }
+    .info:last-of-type span {
+        margin-bottom: 2%;
+        font-size: 1.1vw;
+    }
+    .header-info {
+        margin-left: 50.8%;
+    }
+    .header-info span {
+        font-size: 1.1vw;
+    }
+    .header-outline button {
+        font-size: 1.1vw;
+    }
+    .video-container video {
+        width: 100%;
+        height: 90%;
+    }
+    .text-container h4 {
+        color: #0275d8;
+        font-size: 1.6vw;
+    }
+    .text-container p {
+        text-align: justify;
+        font-size: 1.1vw;
+    }
+    .text-action p {
+        font-size: 1.5vw;
+        color: #ffff;
+    }
+    .description-container div p {
+        font-size: 1.1vw;
+    }
+    .container-donate ul li, .container-donate ul h5 {
+        font-size: 1.1vw;
+        font-weight: 400;
+    }
+    .container-donate ul h6 {
+        font-weight: 400;
+        margin-top: 3%;
+        font-size: 1.1vw;
+    }
+    .container-donate ul h4 {
+        font-weight: 400;
+        font-size: 1.1vw;
+    }
+    .container-donate {
+        margin-top: 11%;
+    }
+    .contacts-item svg {
+        font-size: 3.2vw;
+        margin-bottom: 3%;
+    }
+    .contacts-item span {
+        font-size: 1.1vw;
     }
 }
 @media screen and (max-width: 1441px){
