@@ -59,7 +59,7 @@
         font-size: 1.1vw;
     }
     .header-info {
-        margin-left: 50.8%;
+        margin-left: 48.8%;
     }
     .header-info span {
         font-size: 1.1vw;
@@ -186,12 +186,12 @@
         left: 25%;
     }
     .header-info {
-        margin-left: 50.2%;
+        margin-left: 48.2%;
     }
 }
 @media screen and (max-width: 1121px){
     .header-info {
-        margin-left: 49.2%;
+        margin-left: 48.2%;
     }
 }
 @media screen and (max-width: 1025px){
