@@ -299,8 +299,8 @@ footer{
     font-weight: 400;
     font-size: 1vw;
 }
-.about-container{
-    width: 77%;
+.about-container {
+    width: 86%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -338,21 +338,21 @@ footer{
 .about-slide  .image-holder{
     background-image: url(./images/banner-image-2.jpg) !important;
 }
-.text-slider{
-    width: 126.6%;
+.text-slider {
+    width: 116%;
     height: 5vw;
     background-color: #d6cc0b;
     position: absolute;
-    left: -13.3%;
+    left: -8%;
     top: 46%;
     z-index: 1;
 }
-.text-slider .carousel-caption{
+.text-slider .carousel-caption {
     padding: 0 !important;
     height: 100%;
     bottom: 0;
-    width: 35.5%;
-    left: 10.5%;
+    width: 38.8%;
+    left: 6.9%;
     border-radius: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
