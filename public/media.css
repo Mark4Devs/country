@@ -308,6 +308,9 @@
     .slider-mini-two{
         display: inline-block;
     }
+    .text-slider .carousel-inner{
+        height: 100%;
+    }
 }
 @media screen and (max-width: 961px){
     .navbar-toggler{
