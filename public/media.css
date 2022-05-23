@@ -1052,6 +1052,33 @@
         width: 92%;
         margin-right: 3.5%;
     }
+    .text-action p {
+        font-size: 4vw;
+        color: #ffff;
+    }
+    .contacts-item span {
+        font-size: 2.3vw;
+    }
+}
+@media screen and (max-width: 481px){
+    .header-outline button {
+        font-size: 2vw;
+    }
+    .header-info span {
+        font-size: 2.2vw;
+    }
+    .header-info {
+        width: 62.5%;
+        margin-left: 11%;
+        text-align: end;
+    }
+    .link {
+        font-size: 2.8vw;
+    }
+    .navbar-light .navbar-brand {
+        top: 1.5%;
+        width: 24%;
+    }
 }
 @media screen and (max-width: 426px){
     .navbar-light .navbar-toggler {
