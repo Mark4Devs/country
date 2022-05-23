@@ -26,7 +26,7 @@ function Home() {
 
                  <div className='header-info'>
                    <span>+380 50 983 08 42</span>
-                   <span>countryofpeace@gmail.com</span>
+                   <span>countryofpeace.ua@gmail.com</span>
                  </div>
                </div> 
                  <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -115,11 +115,11 @@ function Home() {
                 { langActive ? ukrItem.map(item => ( <div className='text-action'>
                 <h4>{item['ukr-action-heading']}</h4>
                 <p>{item['ukr-action-desc']}</p>
-                <Button>DONATE</Button>
+                <Button><NavLink to="/donate">ДОПОМОГТИ</NavLink></Button>
               </div>)) : enItem.map(item => ( <div className='text-action'>
                 <h4>{item['en-action-heading']}</h4>
                 <p>{item['en-action-desc']}</p>
-                <Button>DONATE</Button>
+                <Button><NavLink to="/donate">DONATE</NavLink></Button>
               </div>))}
             </div>
           </div>
