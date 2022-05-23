@@ -313,10 +313,10 @@
     }
 }
 @media screen and (max-width: 961px){
-    .navbar-toggler{
+    .navbar-toggler {
         /* right: 0; */
         /* position: absolute; */
-        margin-right: -84%;
+        margin-right: -87.5%;
         margin-top: .5%;
         margin-bottom: .5%;
     }
@@ -423,12 +423,13 @@
         margin-left: 6%;
     }
     .text-slider {
-        width: 100%;
+        width: 106.7%;
         left: 0%;
     }
     .text-slider .carousel-caption {
-        left: -0.45%;
-    }  
+        width: 42.2%;
+        left: 0%;
+    }
     .slider-mini-two .carousel-inner {
         width: 100%;
         height: 42vw;
@@ -462,12 +463,24 @@
         width: 30%;
     }
     .navbar-light .navbar-brand {
-        top: 1.2%;
+        top: 3%;
+    }
+    .navbar-light .navbar-brand {
+        top: 3%;
+    }
+    .text-action button {
+        font-size: 1.9vw;
     }
 }
 @media screen and (max-width: 854px){
     .header-outline button {
-        font-size: 1.2vw;
+        font-size: 1.3vw;
+    }
+    .header-outline {
+        padding-left: 2%;
+    }
+    .header-info span {
+        font-size: 1.4vw;
     }
     .navbar-toggler {
         margin-top: 1%;
@@ -475,16 +488,25 @@
         margin-right: -87%;
     }
     .navbar-light .navbar-brand {
-        top: 2%;
+        top: 2.5%;
+        width: 17%;
+        left: 3%;
+    }
+    .home-desc {
+        width: 94%;
+    }
+    .carousel-inner {
+        height: 51vw;
     }
     .navigation {
-        width: 90%;
+        width: 93%;
         margin-right: 3.5%;
     }
     .text-container p {
         text-align: justify;
         font-size: 1.3vw;
     }
+    
     .video-container {
         width: 48%;
     }
@@ -503,6 +525,14 @@
     .contacts-item span{
         font-size: 1.5vw;
     }
+    .action-container {
+        height: 31vw;
+    }
+    .contacts-container h3 {
+        font-size: 2.5vw;
+        margin-bottom: 4% !important;
+    }
+    
 }
 @media screen and (max-width: 801px){
     .dropdown-menu.show {
@@ -516,8 +546,22 @@
     .link {
         font-size: 1.8vw;
     }
+    .carousel-caption p {
+        font-size: 2vw;
+    }
     .text-container {
         width: 47%;
+    }
+    .text-container p {
+        text-align: justify;
+        font-size: 1.6vw;
+    }
+    .video-container video {
+        height: 100%;
+    }
+    .text-container h4 {
+        color: #0275d8;
+        font-size: 2.5vw;
     }
     .navbar-light .navbar-toggler-icon {
         width: 18px;
@@ -527,7 +571,7 @@
         height: 50vw;
     }
     .home-desc {
-        width: 87%;
+        width: 92%;
         flex-wrap: wrap;
     }
     .text-container {
@@ -545,9 +589,26 @@
         right: 31%;
         top: 22%;
     }
+    .text-slider {
+        width: 100%;
+        left: 0%;
+        height: 7vw;
+    }
     .text-action p {
-        font-size: 1.8vw;
+        font-size: 2vw;
         color: #ffff;
+    }
+    .description-container div h3 {
+        font-size: 2.6vw;
+    }
+    .text-slider .carousel-caption button {
+        font-size: 2.2vw;
+    }
+    .text-slider .carousel-caption h3 {
+        font-size: 2.2vw;
+    }
+    .info p {
+        font-size: 2vw;
     }
     .text-action h4 {
         font-size: 3vw;
@@ -562,66 +623,100 @@
         padding-right: 4%;
     }
     .description-container div p {
-        font-size: 1.4vw;
+        font-size: 1.7vw;
     }
-    .text-slider .carousel-caption {
-        width: 41%;
+    .carousel-caption {
+        width: 45%;
+    }
+    .container-donate ul li, .container-donate ul h5 {
+        font-size: 1.6vw;
+        font-weight: 400;
+    }
+    .container-donate {
+        width: 100%;
+        margin-top: 14%;
+    }   
+    .container-donate ul h6 {
+        font-size: 1.6vw;
+    }
+    .container-donate ul h4 {
+        font-size: 1.6vw;
+    }
+    .contacts-item span {
+        font-size: 1.7vw;
+    }
+    .contacts-item svg {
+        margin: 0 auto;
+        font-size: 6vw;
+        margin-bottom: 4%;
+    }
+    .contacts-page {
+        margin-top: 21%;
+        margin-bottom: 16%;
+        width: 100%;
     }
 }
 @media screen and (max-width: 641px){
     .header-info {
         width: 42.5%;
-        margin-left: 35%;
+        margin-left: 32%;
         text-align: end;
     }
-    .header-info span {
-        font-size: 1.4vw;
+    header-info span {
+        font-size: 1.6vw;
     }
     .header-outline button {
-        font-size: 1.4vw;
+        font-size: 1.6vw;
     }
     .navbar-light .navbar-brand {
         width: 18%;
+        top: 3%;
     }
-    .carousel-caption p{
-        font-size: 2vw;
+    .carousel-caption p {
+         font-size: 2.4vw;
     }
     .carousel-caption h3 {
-        font-size: 2.4vw;
+        font-size: 2.7vw;
+        padding: 3%;
     }
     .carousel-inner {
         height: 57vw;
     }
     .text-container h4 {
         color: #0275d8;
-        font-size: 2.2vw;
+        font-size: 2.5vw;   
     }
     .text-container p {
         text-align: justify;
-        font-size: 1.6vw;
+        font-size: 1.8vw;
     }
     .action-container {
         height: 35vw;
         flex-wrap: wrap;
     }
     .info h5 {
+        font-size: 2.5vw;
+    }
+    .info span {
         font-size: 2vw;
+    }
+    .info:last-of-type span {
+        margin-bottom: 2%;
+        font-size: 1.8vw;
     }
     .contacts-container h3 {
         margin-bottom: 5% !important;
+        font-size: 3vw;
     }
     .sliders-container {
         width: 50%;
     }
-    .text-slider .carousel-caption h3 {
-        font-size: 1.6vw;
-    }
     .text-slider .carousel-caption {
-        width: 45%;
-        left: 11%;
+        width: 50%;
+        left: 0%;
     }
-    .description-container div p {
-        font-size: 1.5vw;
+    .link {
+        font-size: 2vw;
     }
     .container-donate {
         margin-top: 16%;
@@ -630,15 +725,27 @@
         margin-top: 21%;
         margin-bottom: 16%;
     }
-    
+    .container-donate ul li, .container-donate ul h5 {
+        font-size: 1.8vw;
+        font-weight: 400;
+    }
+    .container-donate ul h6 {
+        font-size: 1.8vw;
+    }
+    .container-donate ul h4 {
+        font-size: 1.8vw;
+    }
 }
 @media screen and (max-width: 601px){
     .header-info span {
-        font-size: 1.6vw;
+        font-size: 1.8vw;
+    }
+    .navbar-toggler {
+        margin-right: -85%;
     }
     .header-info {
         width: 48.5%;
-        margin-left: 29%;
+        margin-left: 27%;
         text-align: end;
     }
     .header-outline button {
@@ -646,10 +753,13 @@
     }    
     .navbar-light .navbar-brand {
         width: 21%;
-        top: 1.5%;
+        top: 1.9%;
     }
     .carousel-inner {
         height: 64vw;
+    }
+    .carousel-caption p {
+        font-size: 2.7vw;
     }
     .carousel-caption h3 {
         font-size: 2.6vw;
@@ -657,11 +767,11 @@
     }
     .text-container h4 {
         color: #0275d8;
-        font-size: 2.4vw;
+        font-size: 2.5vw;
     }
     .text-container p {
         text-align: justify;
-        font-size: 2vw;
+        font-size: 2.1vw;
     }
     .video-container video {
         height: 100%;
@@ -787,7 +897,10 @@
     .slider-mini-two{
         display: none;
     } 
-    .slider-mini-three{
+    .slider-mini-three {
+        width: 92%;
+        margin: 0 auto;
+        margin-left: 4%;
         display: inline-block;
     }
     .carousel-control-next-icon, .carousel-control-prev-icon {
@@ -796,22 +909,68 @@
     .navbar-light .navbar-brand {
         top: 1.4%;
     }
+    .text-action button {
+        font-size: 3vw;
+    }
+    .contacts-container h3 {
+        font-size: 4vw;
+    }
+    .info:last-of-type span {
+        margin-bottom: 2%;
+        font-size: 2vw;
+    }
+    .info span {
+        font-size: 2vw;
+    }
+}
+@media screen and (max-width: 581px){
+    .header-info {
+        margin-left: 26%;
+    }
 }
 @media screen and (max-width: 541px){
     .header-info span {
         font-size: 1.9vw;
     }
     .header-info {
-        width: 69.5%;
-        margin-left: 0%;
+        width: 62.5%;
+        margin-left: 23%;
         text-align: end;
     }
-    .navbar-toggler {
-        margin-right: -78%;
-    } 
     .navigation {
         width: 86%;
         margin-right: 6.5%;
+    }
+    .text-slider {
+        height: 10.8vw; 
+    }
+    .description-container div p {
+        font-size: 2.4vw;
+        text-align: center;
+    }
+    .sliders-container .carousel-inner {
+        height: 60vw;
+    }
+    .text-slider .carousel-caption button {
+        font-size: 2.8vw;
+    }
+    .text-slider .carousel-caption h3 {
+        font-size: 2.7vw;
+    }
+    .description-container div h3 {
+        font-size: 3vw;
+    }
+    .contacts-item svg {
+        margin: 0 auto;
+        font-size: 9vw;
+        margin-bottom: 5%;
+    }
+    .contacts-item span {
+        font-size: 2vw;
+    }
+    .contacts-page {
+        margin-top: 48%;
+        margin-bottom: 6%;
     }
 }
 @media screen and (max-width: 501px){
