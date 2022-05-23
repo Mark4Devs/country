@@ -25,6 +25,10 @@ header{
 .btn.active{
     color: #0275d8;
 }
+.text-action button a{
+    color: #ffff;
+    tex-decoration: none;
+}
 .header-info {
     width: 44%;
     margin-left: 53%;
