@@ -196,8 +196,8 @@
 }
 @media screen and (max-width: 1025px){
     .header-info {
-        width: 39%;
-        margin-left: 43%;
+        width: 52%;
+        margin-left: 40%;
         align-self: center;
     }
     .navbar-light .navbar-brand {
@@ -355,10 +355,10 @@
     .header-info span {
         font-size: 1.2vw;
     }
-    .header-info{
-       width: 39.5%;
-       margin-left: 40%; 
-       text-align: end;
+    .header-info {
+        width: 52.5%;
+        margin-left: 37%;
+        text-align: end;
     }
     .header-outline {
         width: 100%;
@@ -656,8 +656,8 @@
 }
 @media screen and (max-width: 641px){
     .header-info {
-        width: 42.5%;
-        margin-left: 32%;
+        width: 52.5%;
+        margin-left: 21%;
         text-align: end;
     }
     .header-info span {
@@ -743,7 +743,7 @@
     }
     .header-info {
         width: 48.5%;
-        margin-left: 27%;
+        margin-left: 22%;
         text-align: end;
     }
     .header-outline button {
@@ -923,7 +923,8 @@
 }
 @media screen and (max-width: 581px){
     .header-info {
-        margin-left: 26%;
+        margin-left: 13%;
+        width: 60.5%;
     }
 }
 @media screen and (max-width: 541px){
@@ -932,7 +933,7 @@
     }
     .header-info {
         width: 62.5%;
-        margin-left: 23%;
+        margin-left: 19%;
         text-align: end;
     }
     .navigation {
@@ -997,7 +998,7 @@
     }
     .header-info {
         width: 62.5%;
-        margin-left: 20%;
+        margin-left: 16%;
         text-align: end;
     }
     .description-container div h3 {
@@ -1069,7 +1070,7 @@
     }
     .header-info {
         width: 62.5%;
-        margin-left: 10%;
+        margin-left: 6%;
         text-align: end;
     }
     .link {
