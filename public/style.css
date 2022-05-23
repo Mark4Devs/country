@@ -27,7 +27,7 @@ header{
 }
 .text-action button a{
     color: #ffff;
-    tex-decoration: none;
+    text-decoration: none;
 }
 .header-info {
     width: 44%;
