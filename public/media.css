@@ -1299,6 +1299,11 @@
     .dropdown-menu.show {
         min-width: 44px !important;
     }
+    .header-info {
+        width: 62.5%;
+        margin-left: 4%;
+        text-align: end;
+    }
 }
 
 
